@@ -179,6 +179,7 @@ namespace Gemstone_Hunter
                     onGround = true;
                 moveAmount.Y = 0;
                 velocity.Y = 0;
+                velocity.X = velocity.X * 0.9f;
             }
 
             if (codeBasedBlocks)
@@ -190,6 +191,7 @@ namespace Gemstone_Hunter
                         onGround = true;
                     moveAmount.Y = 0;
                     velocity.Y = 0;
+                    velocity.X = velocity.X * 0.8f;
                 }
             }
 

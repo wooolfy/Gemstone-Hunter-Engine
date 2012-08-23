@@ -13,7 +13,9 @@ namespace Gemstone_Hunter
     public class Player : GameObject
     {
         private Vector2 fallSpeed = new Vector2(0, 20);
-        private float moveScale = 180.0f;
+        private float acc = 0.0f;
+        private float moveScale = 100.0f;
+        private float maxscale = 300.0f;
         private bool dead = false;
         private int score = 0;
         private int livesRemaining = 3;
@@ -88,7 +90,8 @@ namespace Gemstone_Hunter
             {
                 string newAnimation = "idle";
 
-                velocity = new Vector2(0, velocity.Y);
+                velocity = new Vector2(velocity.X, velocity.Y);
+                acc = (1.1f-((maxscale - Math.Abs(velocity.X))/maxscale))*moveScale;
                 GamePadState gamePad = GamePad.GetState(PlayerIndex.One);
                 KeyboardState keyState = Keyboard.GetState();
 
@@ -97,7 +100,7 @@ namespace Gemstone_Hunter
                 {
                     flipped = false;
                     newAnimation = "run";
-                    velocity = new Vector2(-moveScale, velocity.Y);
+                    velocity = new Vector2(Math.Max(velocity.X-acc,-maxscale), velocity.Y);
                 }
 
                 if (keyState.IsKeyDown(Keys.Right) ||
@@ -105,7 +108,7 @@ namespace Gemstone_Hunter
                 {
                     flipped = true;
                     newAnimation = "run";
-                    velocity = new Vector2(moveScale, velocity.Y);
+                    velocity = new Vector2(Math.Min(acc+velocity.X,maxscale), velocity.Y);
                 }
 
                 if (keyState.IsKeyDown(Keys.Space) ||
