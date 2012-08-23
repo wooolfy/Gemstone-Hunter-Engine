@@ -111,6 +111,16 @@ namespace Gemstone_Hunter
                     velocity = new Vector2(Math.Min(acc+velocity.X,maxscale), velocity.Y);
                 }
 
+                if (keyState.IsKeyUp(Keys.Left) &&
+                    (gamePad.ThumbSticks.Left.X > -0.3f) &&
+                    keyState.IsKeyUp(Keys.Right) &&
+                    (gamePad.ThumbSticks.Left.X < 0.3f) &&
+                    onGround)
+                {
+                    newAnimation = "idle";
+                    velocity = new Vector2(velocity.X * 0.8f, velocity.Y);
+                }
+
                 if (keyState.IsKeyDown(Keys.Space) ||
                     (gamePad.Buttons.A == ButtonState.Pressed))
                 {
