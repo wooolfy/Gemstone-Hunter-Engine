@@ -1,0 +1,6 @@
+E:\development\Buch\Chapter09\Code\Gemstone Hunter\Tile Engine\obj\Xbox 360\Debug\ResolveAssemblyReference.cache
+E:\development\Buch\Chapter09\Code\Gemstone Hunter\Tile Engine\obj\Xbox 360\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\development\Buch\Chapter09\Code\Gemstone Hunter\Tile Engine\bin\Xbox 360\Debug\Tile Engine.dll
+E:\development\Buch\Chapter09\Code\Gemstone Hunter\Tile Engine\bin\Xbox 360\Debug\Tile Engine.pdb
+E:\development\Buch\Chapter09\Code\Gemstone Hunter\Tile Engine\obj\Xbox 360\Debug\Tile Engine.dll
+E:\development\Buch\Chapter09\Code\Gemstone Hunter\Tile Engine\obj\Xbox 360\Debug\Tile Engine.pdb
