@@ -1,2 +1,0 @@
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone HunterContent\obj\Xbox 360\Debug\ResolveAssemblyReference.cache
-E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone HunterContent\obj\Xbox 360\Debug\ResolveAssemblyReference.cache
