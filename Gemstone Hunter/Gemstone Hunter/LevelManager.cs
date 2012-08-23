@@ -89,6 +89,11 @@ namespace Gemstone_Hunter
                         enemies.Add(new Enemy(Content, x, y));
                     }
 
+                    if (TileMap.CellCodeValue(x, y) == "ROTATION")
+                    {
+                        TileMap.GetMapSquareAtCell(x, y).ToggleRotating();
+                    }
+
                 }
             }
 

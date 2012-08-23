@@ -110,6 +110,7 @@ namespace Level_Editor
             cboCodeValues.Items.Add("Start");
             cboCodeValues.Items.Add("Clear");
             cboCodeValues.Items.Add("Custom");
+            cboCodeValues.Items.Add("Rotation");
 
             for (int x = 0; x < 100; x++)
             {
@@ -159,6 +160,10 @@ namespace Level_Editor
                 case "Custom":
                     txtNewCode.Text = "";
                     txtNewCode.Enabled = true;
+                    break;
+                case "Rotation":
+                    txtNewCode.Text = "ROTATION";
+                    //txtNewCode.Enabled = true;
                     break;
             }
         }

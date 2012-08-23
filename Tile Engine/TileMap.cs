@@ -270,8 +270,6 @@ namespace Tile_Engine
                     for (int j = 0; j < MapHeight; j++)
                     {// Going backwards now  
                         mapCells[i, j] = lala[k];
-                        if (k % 20 == 0)
-                            mapCells[i, j].ToggleRotating();
                         k++;
                     }
                 }  
