@@ -28,6 +28,8 @@ namespace Tile_Engine
         public const int MapHeight = 12;
         public const int MapLayers = 3;
         private const int skyTile = 2;
+        private static float rotation = 0f;
+        private static float r;
 
         private MapSquare[,] mapCopy;
 
@@ -268,6 +270,8 @@ namespace Tile_Engine
                     for (int j = 0; j < MapHeight; j++)
                     {// Going backwards now  
                         mapCells[i, j] = lala[k];
+                        if (k % 20 == 0)
+                            mapCells[i, j].ToggleRotating();
                         k++;
                     }
                 }  
@@ -311,12 +315,22 @@ namespace Tile_Engine
                         if ((x >= 0) && (y >= 0) &&
                             (x < MapWidth) && (y < MapHeight))
                         {
+                            rotation += 0.01f;
+                            float circle = MathHelper.Pi * 2;
+                            rotation = rotation % circle;
+                            
+
+                            if (mapCells[x, y].Rotating)
+                                r = rotation;
+                            else r = 0;
+
+
                             spriteBatch.Draw(
                               tileSheet,
                               CellScreenRectangle(x, y),
                               TileSourceRectangle(mapCells[x, y].LayerTiles[z]),
                               Color.White,
-                              0.0f,
+                              r,
                               Vector2.Zero,
                               SpriteEffects.None,
                               1f - ((float)z * 0.1f));

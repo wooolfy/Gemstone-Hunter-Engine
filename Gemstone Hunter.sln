@@ -28,8 +28,8 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B1DDE12B-EBF8-4D92-B2C5-891C88378532}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{B1DDE12B-EBF8-4D92-B2C5-891C88378532}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{B1DDE12B-EBF8-4D92-B2C5-891C88378532}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{B1DDE12B-EBF8-4D92-B2C5-891C88378532}.Debug|Mixed Platforms.ActiveCfg = Release|x86
+		{B1DDE12B-EBF8-4D92-B2C5-891C88378532}.Debug|Mixed Platforms.Build.0 = Release|x86
 		{B1DDE12B-EBF8-4D92-B2C5-891C88378532}.Debug|x86.ActiveCfg = Debug|x86
 		{B1DDE12B-EBF8-4D92-B2C5-891C88378532}.Debug|x86.Build.0 = Debug|x86
 		{B1DDE12B-EBF8-4D92-B2C5-891C88378532}.Debug|Xbox 360.ActiveCfg = Debug|x86
