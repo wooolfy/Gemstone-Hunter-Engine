@@ -17,6 +17,7 @@ namespace Tile_Engine
         public int[] LayerTiles = new int[3];
         public string CodeValue = "";
         public bool Passable = true;
+        public bool Rotating = false;
         #endregion
 
         #region Constructor
@@ -43,6 +44,11 @@ namespace Tile_Engine
         public void TogglePassable()
         {
             Passable = !Passable;
+        }
+
+        public void ToggleRotating()
+        {
+            this.Rotating = !this.Rotating;
         }
         #endregion
 
