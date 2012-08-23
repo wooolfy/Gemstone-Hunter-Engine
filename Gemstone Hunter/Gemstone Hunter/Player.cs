@@ -19,6 +19,12 @@ namespace Gemstone_Hunter
         private bool dead = false;
         private int score = 0;
         private int livesRemaining = 3;
+        private int jumpHeight = -500;
+        private ProfileArea currArea = new ProfileArea(
+            new Vector2(0, 20), new Vector2(300,500), new Vector2(100,0), 0.1f);
+        private ProfileFloor currFloor = new ProfileFloor(0.1f, 1.0f);
+
+        private string newAnimation;
 
         public bool Dead
         {
@@ -88,38 +94,57 @@ namespace Gemstone_Hunter
         {
             if (!Dead)
             {
-                string newAnimation = "idle";
+                newAnimation = "idle";
 
                 velocity = new Vector2(velocity.X, velocity.Y);
                 acc = (1.1f-((maxscale - Math.Abs(velocity.X))/maxscale))*moveScale;
                 GamePadState gamePad = GamePad.GetState(PlayerIndex.One);
                 KeyboardState keyState = Keyboard.GetState();
 
-                if (keyState.IsKeyDown(Keys.Left) ||
-                    (gamePad.ThumbSticks.Left.X < -0.3f))
+                float intensity = 0.0f;
+                if (keyState.IsKeyDown(Keys.Left))
                 {
-                    flipped = false;
-                    newAnimation = "run";
-                    velocity = new Vector2(Math.Max(velocity.X-acc,-maxscale), velocity.Y);
+                    intensity -= 1;
                 }
+                if (keyState.IsKeyDown(Keys.Right))
+                {
+                    intensity += 1;
+                }
+                intensity += gamePad.ThumbSticks.Left.X;
 
-                if (keyState.IsKeyDown(Keys.Right) ||
-                    (gamePad.ThumbSticks.Left.X > 0.3f))
+                if (intensity == 0.0f)
                 {
-                    flipped = true;
-                    newAnimation = "run";
-                    velocity = new Vector2(Math.Min(acc+velocity.X,maxscale), velocity.Y);
+                    Stop();
                 }
+                else
+                {
+                    Move(intensity);
+                }
+                //if (keyState.IsKeyDown(Keys.Left) ||
+                //    (gamePad.ThumbSticks.Left.X < -0.3f))
+                //{
+                //    flipped = false;
+                //    newAnimation = "run";
+                //    velocity = new Vector2(Math.Max(velocity.X-acc,-maxscale), velocity.Y);
+                //}
 
-                if (keyState.IsKeyUp(Keys.Left) &&
-                    (gamePad.ThumbSticks.Left.X > -0.3f) &&
-                    keyState.IsKeyUp(Keys.Right) &&
-                    (gamePad.ThumbSticks.Left.X < 0.3f) &&
-                    onGround)
-                {
-                    newAnimation = "idle";
-                    velocity = new Vector2(velocity.X * 0.8f, velocity.Y);
-                }
+                //if (keyState.IsKeyDown(Keys.Right) ||
+                //    (gamePad.ThumbSticks.Left.X > 0.3f))
+                //{
+                //    flipped = true;
+                //    newAnimation = "run";
+                //    velocity = new Vector2(Math.Min(acc+velocity.X,maxscale), velocity.Y);
+                //}
+
+                //if (keyState.IsKeyUp(Keys.Left) &&
+                //    (gamePad.ThumbSticks.Left.X > -0.3f) &&
+                //    keyState.IsKeyUp(Keys.Right) &&
+                //    (gamePad.ThumbSticks.Left.X < 0.3f) &&
+                //    onGround)
+                //{
+                //    newAnimation = "idle";
+                //    velocity = new Vector2(velocity.X * 0.8f, velocity.Y);
+                //}
 
                 if (keyState.IsKeyDown(Keys.Space) ||
                     (gamePad.Buttons.A == ButtonState.Pressed))
@@ -148,14 +173,31 @@ namespace Gemstone_Hunter
             }
 
             velocity += fallSpeed;
+            velocity.X = Math.Max(Math.Min(velocity.X, currArea.maxVelocity.X), -currArea.maxVelocity.X);
+            velocity.Y = Math.Max(Math.Min(velocity.Y, currArea.maxVelocity.Y), -currArea.maxVelocity.Y);
 
             repositionCamera();
             base.Update(gameTime);
         }
 
+        public void Move(float intensity)
+        {
+            flipped = intensity > 0;
+            newAnimation = "run";
+            velocity += intensity * currArea.acceleration * currFloor.grip;
+            //velocity = new Vector2(Math.Max(velocity.X - acc, -maxscale), velocity.Y);
+        }
+
+        public void Stop()
+        {
+            newAnimation = "idle";
+            velocity.X *= 1.0f - (currFloor.grip * currArea.friction);
+        }
+
         public void Jump()
         {
-            velocity.Y = -500;
+            //velocity.Y = -500;
+            velocity.Y = jumpHeight * currFloor.jump;
         }
 
         public void Kill()
