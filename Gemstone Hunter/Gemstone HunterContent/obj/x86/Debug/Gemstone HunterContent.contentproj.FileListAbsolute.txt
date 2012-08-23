@@ -2,3 +2,4 @@ c:\users\kurt\documents\visual studio 2010\Projects\Gemstone Hunter\Gemstone Hun
 J:\BookResources\BookChapters\For XNA 4.0\0669_09_CODE\Gemstone Hunter\Gemstone Hunter\Gemstone HunterContent\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Dayan Haymes\Desktop\0669_09_CODE\Gemstone Hunter\Gemstone Hunter\Gemstone HunterContent\obj\x86\Debug\ResolveAssemblyReference.cache
 E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone HunterContent\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone HunterContent\obj\x86\Debug\ResolveAssemblyReference.cache

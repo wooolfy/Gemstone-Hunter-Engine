@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Gem.xnb</Output>
+      <Output>E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Gem.xnb</Output>
       <Time>2010-08-17T12:26:14+02:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\PlatformTiles.xnb</Output>
+      <Output>E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\PlatformTiles.xnb</Output>
       <Time>2010-08-17T12:26:14+02:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\Gem.xnb</Output>
+      <Output>E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\Gem.xnb</Output>
       <Time>2010-08-17T12:26:14+02:00</Time>
     </Item>
     <Item>
@@ -34,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterA\Die.xnb</Output>
+      <Output>E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterA\Die.xnb</Output>
       <Time>2010-08-17T12:26:14+02:00</Time>
     </Item>
     <Item>
@@ -43,7 +43,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterA\Idle.xnb</Output>
+      <Output>E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterA\Idle.xnb</Output>
       <Time>2010-08-17T12:26:14+02:00</Time>
     </Item>
     <Item>
@@ -52,7 +52,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterA\Run.xnb</Output>
+      <Output>E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterA\Run.xnb</Output>
       <Time>2010-08-17T12:26:14+02:00</Time>
     </Item>
     <Item>
@@ -61,7 +61,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterB\Die.xnb</Output>
+      <Output>E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterB\Die.xnb</Output>
       <Time>2010-08-17T12:26:14+02:00</Time>
     </Item>
     <Item>
@@ -70,7 +70,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterB\Idle.xnb</Output>
+      <Output>E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterB\Idle.xnb</Output>
       <Time>2010-08-17T12:26:14+02:00</Time>
     </Item>
     <Item>
@@ -79,7 +79,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterB\Run.xnb</Output>
+      <Output>E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterB\Run.xnb</Output>
       <Time>2010-08-17T12:26:14+02:00</Time>
     </Item>
     <Item>
@@ -88,7 +88,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterC\Die.xnb</Output>
+      <Output>E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterC\Die.xnb</Output>
       <Time>2010-08-17T12:26:14+02:00</Time>
     </Item>
     <Item>
@@ -97,7 +97,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterC\Idle.xnb</Output>
+      <Output>E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterC\Idle.xnb</Output>
       <Time>2010-08-17T12:26:14+02:00</Time>
     </Item>
     <Item>
@@ -106,7 +106,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterC\Run.xnb</Output>
+      <Output>E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterC\Run.xnb</Output>
       <Time>2010-08-17T12:26:14+02:00</Time>
     </Item>
     <Item>
@@ -115,7 +115,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterD\Die.xnb</Output>
+      <Output>E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterD\Die.xnb</Output>
       <Time>2010-08-17T12:26:14+02:00</Time>
     </Item>
     <Item>
@@ -124,7 +124,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterD\Idle.xnb</Output>
+      <Output>E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterD\Idle.xnb</Output>
       <Time>2010-08-17T12:26:14+02:00</Time>
     </Item>
     <Item>
@@ -133,7 +133,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterD\Run.xnb</Output>
+      <Output>E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterD\Run.xnb</Output>
       <Time>2010-08-17T12:26:14+02:00</Time>
     </Item>
     <Item>
@@ -142,7 +142,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\Player\Celebrate.xnb</Output>
+      <Output>E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\Player\Celebrate.xnb</Output>
       <Time>2010-08-17T12:26:14+02:00</Time>
     </Item>
     <Item>
@@ -151,7 +151,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\Player\Die.xnb</Output>
+      <Output>E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\Player\Die.xnb</Output>
       <Time>2010-08-17T12:26:14+02:00</Time>
     </Item>
     <Item>
@@ -160,7 +160,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\Player\Idle.xnb</Output>
+      <Output>E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\Player\Idle.xnb</Output>
       <Time>2010-08-17T12:26:14+02:00</Time>
     </Item>
     <Item>
@@ -169,7 +169,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\Player\Jump.xnb</Output>
+      <Output>E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\Player\Jump.xnb</Output>
       <Time>2010-08-17T12:26:14+02:00</Time>
     </Item>
     <Item>
@@ -178,7 +178,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\Player\Run.xnb</Output>
+      <Output>E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\Player\Run.xnb</Output>
       <Time>2010-08-17T12:26:14+02:00</Time>
     </Item>
     <Item>
@@ -187,7 +187,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\TitleScreen.xnb</Output>
+      <Output>E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\TitleScreen.xnb</Output>
       <Time>2010-08-17T12:26:14+02:00</Time>
     </Item>
     <Item>
@@ -196,7 +196,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Fonts\Pericles8.xnb</Output>
+      <Output>E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Fonts\Pericles8.xnb</Output>
       <Time>2010-08-17T12:26:58+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -206,10 +206,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>true</CompressContent>
-      <RootDirectory>E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone HunterContent\</RootDirectory>
-      <LoggerRootDirectory>E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\</LoggerRootDirectory>
-      <IntermediateDirectory>E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\obj\Xbox 360\Debug\</IntermediateDirectory>
-      <OutputDirectory>E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\</OutputDirectory>
+      <RootDirectory>E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone HunterContent\</RootDirectory>
+      <LoggerRootDirectory>E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\</LoggerRootDirectory>
+      <IntermediateDirectory>E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\obj\Xbox 360\Debug\</IntermediateDirectory>
+      <OutputDirectory>E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

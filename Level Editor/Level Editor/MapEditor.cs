@@ -246,7 +246,9 @@ namespace Level_Editor
             object sender,
             EventArgs e)
         {
-            TileMap.SaveMap(new FileStream(
+            TileMap bla = new TileMap();
+            //bla.SaveMap
+            bla.SaveMap(new FileStream(
                 Application.StartupPath + @"\MAP" +
                 cboMapNumber.Items[cboMapNumber.SelectedIndex] + ".MAP",
                 FileMode.Create));

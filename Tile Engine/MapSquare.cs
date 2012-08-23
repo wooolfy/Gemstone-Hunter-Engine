@@ -7,7 +7,10 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace Tile_Engine
 {
+    #if XBOX
+    #else
     [Serializable]
+    #endif
     public class MapSquare
     {
         #region Declarations
@@ -17,6 +20,10 @@ namespace Tile_Engine
         #endregion
 
         #region Constructor
+        public MapSquare()
+        {
+
+        }
         public MapSquare(
             int background,
             int interactive,

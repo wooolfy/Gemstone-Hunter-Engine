@@ -1,59 +1,59 @@
 6cd499de30544144acc3902f3fb345e6
 0
 Wichsbox
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\
-129901879560000000
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\GameThumbnail.png
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\
+129901960240000000
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\GameThumbnail.png
 2011-09-01T13:17:24.0000000Z
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Gemstone Hunter.exe
-2012-08-23T09:31:02.8420330Z
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Tile Engine.dll
-2012-08-23T09:30:54.1485357Z
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Fonts\Pericles8.xnb
-2012-08-23T09:26:37.3648485Z
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Maps\MAP000.MAP
-2010-08-17T13:00:32.0000000Z
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Maps\MAP001.MAP
-2010-08-17T13:00:32.0000000Z
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Gem.xnb
-2012-08-23T09:26:35.0487161Z
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\PlatformTiles.xnb
-2012-08-23T09:26:35.2777292Z
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\TitleScreen.xnb
-2012-08-23T09:26:37.2658429Z
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\Gem.xnb
-2012-08-23T09:26:35.2877297Z
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterA\Die.xnb
-2012-08-23T09:26:35.3377326Z
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterA\Idle.xnb
-2012-08-23T09:26:35.3937358Z
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterA\Run.xnb
-2012-08-23T09:26:35.4447387Z
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterB\Die.xnb
-2012-08-23T09:26:35.5107425Z
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterB\Idle.xnb
-2012-08-23T09:26:35.5697459Z
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterB\Run.xnb
-2012-08-23T09:26:35.6277492Z
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterC\Die.xnb
-2012-08-23T09:26:35.6787521Z
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterC\Idle.xnb
-2012-08-23T09:26:35.7327552Z
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterC\Run.xnb
-2012-08-23T09:26:35.7827580Z
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterD\Die.xnb
-2012-08-23T09:26:35.8347610Z
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterD\Idle.xnb
-2012-08-23T09:26:35.8927643Z
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterD\Run.xnb
-2012-08-23T09:26:35.9457674Z
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\Player\Celebrate.xnb
-2012-08-23T09:26:36.0027706Z
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\Player\Die.xnb
-2012-08-23T09:26:36.0807751Z
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\Player\Idle.xnb
-2012-08-23T09:26:36.0897756Z
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\Player\Jump.xnb
-2012-08-23T09:26:36.1427786Z
-E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\Player\Run.xnb
-2012-08-23T09:26:36.1947816Z
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Gemstone Hunter.exe
+2012-08-23T11:46:40.1504604Z
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Tile Engine.dll
+2012-08-23T11:46:31.6269729Z
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Fonts\Pericles8.xnb
+2012-08-23T10:07:39.0286476Z
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Maps\MAP000.MAP
+2012-08-23T11:30:51.5702047Z
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Maps\MAP001.MAP
+2012-08-23T11:30:58.5616046Z
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Gem.xnb
+2012-08-23T10:07:36.6445113Z
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\PlatformTiles.xnb
+2012-08-23T10:07:36.8975258Z
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\TitleScreen.xnb
+2012-08-23T10:07:38.8986402Z
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\Gem.xnb
+2012-08-23T10:07:36.9065263Z
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterA\Die.xnb
+2012-08-23T10:07:36.9555291Z
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterA\Idle.xnb
+2012-08-23T10:07:37.0105322Z
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterA\Run.xnb
+2012-08-23T10:07:37.0645353Z
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterB\Die.xnb
+2012-08-23T10:07:37.1235387Z
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterB\Idle.xnb
+2012-08-23T10:07:37.1845422Z
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterB\Run.xnb
+2012-08-23T10:07:37.2385453Z
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterC\Die.xnb
+2012-08-23T10:07:37.2955485Z
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterC\Idle.xnb
+2012-08-23T10:07:37.3815534Z
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterC\Run.xnb
+2012-08-23T10:07:37.4355565Z
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterD\Die.xnb
+2012-08-23T10:07:37.4925598Z
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterD\Idle.xnb
+2012-08-23T10:07:37.5625638Z
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\MonsterD\Run.xnb
+2012-08-23T10:07:37.6355680Z
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\Player\Celebrate.xnb
+2012-08-23T10:07:37.6925712Z
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\Player\Die.xnb
+2012-08-23T10:07:37.7415740Z
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\Player\Idle.xnb
+2012-08-23T10:07:37.7495745Z
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\Player\Jump.xnb
+2012-08-23T10:07:37.8005774Z
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\Xbox 360\Debug\Content\Textures\Sprites\Player\Run.xnb
+2012-08-23T10:07:37.8495802Z

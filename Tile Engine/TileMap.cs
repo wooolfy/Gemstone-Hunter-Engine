@@ -11,11 +11,15 @@ using Microsoft.Xna.Framework.Media;
 using Microsoft.Xna.Framework.Storage;
 using System.IO;
 using System.Xml.Serialization;
+#if WINDOWS
 using System.Runtime.Serialization.Formatters.Binary;
+#elif XBOX
+using System.Xml;
+#endif
 
 namespace Tile_Engine
 {
-    public static class TileMap
+    public class TileMap
     {
         #region Declarations
         public const int TileWidth = 48;
@@ -24,6 +28,8 @@ namespace Tile_Engine
         public const int MapHeight = 12;
         public const int MapLayers = 3;
         private const int skyTile = 2;
+
+        private MapSquare[,] mapCopy;
 
         static private MapSquare[,] mapCells =
             new MapSquare[MapWidth, MapHeight];
@@ -35,7 +41,7 @@ namespace Tile_Engine
         #endregion
 
         #region Initialization
-        static public void Initialize(Texture2D tileTexture)
+        public static void Initialize(Texture2D tileTexture)
         {
             tileSheet = tileTexture;
 
@@ -220,10 +226,26 @@ namespace Tile_Engine
         #endregion
 
         #region Loading and Saving Maps
-        public static void SaveMap(FileStream fileStream)
+        public void SaveMap(FileStream fileStream)
         {
-            BinaryFormatter formatter = new BinaryFormatter();
-            formatter.Serialize(fileStream, mapCells);
+//#if WINDOWS
+            //BinaryFormatter formatter = new BinaryFormatter();
+            //formatter.Serialize(fileStream, mapCells);
+            //fileStream.Close();
+//#endif
+            int k = 0;
+            MapSquare[] lala = new MapSquare[MapWidth * MapHeight];
+            for (int i = 0; i < MapWidth; i++)
+            {
+                for (int j = 0; j < MapHeight; j++)
+                {// Grab each value one at a time, and place it inside the SD array  
+                    lala[k] = mapCells[i, j];
+                    k++;
+                }
+            }
+
+            XmlSerializer serializer = new XmlSerializer(typeof(MapSquare[]));
+            serializer.Serialize(fileStream, lala);
             fileStream.Close();
         }
 
@@ -231,9 +253,27 @@ namespace Tile_Engine
         {
             try
             {
-                BinaryFormatter formatter = new BinaryFormatter();
-                mapCells = (MapSquare[,])formatter.Deserialize(fileStream);
+//#if WINDOWS
+//                BinaryFormatter formatter = new BinaryFormatter();
+//                mapCells = (MapSquare[,])formatter.Deserialize(fileStream);
+//                fileStream.Close();
+//#elif XBOX
+
+                XmlSerializer serializer = new XmlSerializer(typeof(MapSquare[]));
+                MapSquare[] lala = new MapSquare[MapWidth * MapHeight];
+                lala = (MapSquare[])serializer.Deserialize(fileStream);
+                int k = 0;
+                for (int i = 0; i < MapWidth; i++)
+                {
+                    for (int j = 0; j < MapHeight; j++)
+                    {// Going backwards now  
+                        mapCells[i, j] = lala[k];
+                        k++;
+                    }
+                }  
                 fileStream.Close();
+
+//#endif
             }
             catch
             {
@@ -328,6 +368,11 @@ namespace Tile_Engine
                     SpriteEffects.None,
                     0.0f);
             }
+        }
+
+        public MapSquare[,] getMapCells()
+        {
+            return mapCells;
         }
         #endregion
 

@@ -126,3 +126,35 @@ E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunt
 E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\obj\x86\Debug\Gemstone Hunter.exe
 E:\development\Buch\Chapter09\Code\Gemstone Hunter\Gemstone Hunter\Gemstone Hunter\obj\x86\Debug\Gemstone Hunter.pdb
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Gem.xnb
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\PlatformTiles.xnb
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\Gem.xnb
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterA\Die.xnb
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterA\Idle.xnb
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterA\Run.xnb
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterB\Die.xnb
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterB\Idle.xnb
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterB\Run.xnb
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterC\Die.xnb
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterC\Idle.xnb
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterC\Run.xnb
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterD\Die.xnb
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterD\Idle.xnb
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\MonsterD\Run.xnb
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\Player\Celebrate.xnb
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\Player\Die.xnb
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\Player\Idle.xnb
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\Player\Jump.xnb
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\Sprites\Player\Run.xnb
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Textures\TitleScreen.xnb
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Fonts\Pericles8.xnb
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Maps\MAP000.MAP
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Content\Maps\MAP001.MAP
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Gemstone Hunter.exe
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Gemstone Hunter.pdb
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Tile Engine.dll
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\bin\x86\Debug\Tile Engine.pdb
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\obj\x86\Debug\Gemstone Hunter.exe
+E:\development\Gemstone-Hunter-Engine\Gemstone Hunter\Gemstone Hunter\obj\x86\Debug\Gemstone Hunter.pdb

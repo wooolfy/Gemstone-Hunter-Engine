@@ -22,3 +22,9 @@ E:\development\Buch\Chapter09\Code\Gemstone Hunter\Tile Engine\obj\x86\Debug\Res
 E:\development\Buch\Chapter09\Code\Gemstone Hunter\Tile Engine\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 E:\development\Buch\Chapter09\Code\Gemstone Hunter\Tile Engine\obj\x86\Debug\Tile Engine.dll
 E:\development\Buch\Chapter09\Code\Gemstone Hunter\Tile Engine\obj\x86\Debug\Tile Engine.pdb
+E:\development\Gemstone-Hunter-Engine\Tile Engine\bin\x86\Debug\Tile Engine.dll
+E:\development\Gemstone-Hunter-Engine\Tile Engine\bin\x86\Debug\Tile Engine.pdb
+E:\development\Gemstone-Hunter-Engine\Tile Engine\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\development\Gemstone-Hunter-Engine\Tile Engine\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\development\Gemstone-Hunter-Engine\Tile Engine\obj\x86\Debug\Tile Engine.dll
+E:\development\Gemstone-Hunter-Engine\Tile Engine\obj\x86\Debug\Tile Engine.pdb
