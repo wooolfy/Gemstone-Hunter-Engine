@@ -20,9 +20,12 @@ namespace Gemstone_Hunter
         private int score = 0;
         private int livesRemaining = 3;
         private int jumpHeight = -500;
-        private ProfileArea currArea = new ProfileArea(
-            new Vector2(0, 20), new Vector2(300,500), new Vector2(100,0), 0.1f);
-        private ProfileFloor currFloor = new ProfileFloor(0.1f, 1.0f);
+        //private ProfileArea currArea = new ProfileArea(
+        //    new Vector2(0, 20), new Vector2(300,500), new Vector2(100,0), 0.1f);
+        //private ProfileFloor currFloor = new ProfileFloor(0.1f, 1.0f);
+        //private TileProfiles tileprofiles = new TileProfiles();
+        private ProfileFloor currFloor = TileProfiles.sand;
+        private ProfileArea currArea = TileProfiles.stuck;
 
         private string newAnimation;
 
@@ -41,6 +44,12 @@ namespace Gemstone_Hunter
         {
             get { return livesRemaining; }
             set { livesRemaining = value; }
+        }
+
+        public ProfileFloor CurrFloor
+        {
+            get { return currFloor; }
+            set { currFloor = value; }
         }
 
 
@@ -172,7 +181,7 @@ namespace Gemstone_Hunter
                 }
             }
 
-            velocity += fallSpeed;
+            velocity += currArea.gravity;
             velocity.X = Math.Max(Math.Min(velocity.X, currArea.maxVelocity.X), -currArea.maxVelocity.X);
             velocity.Y = Math.Max(Math.Min(velocity.Y, currArea.maxVelocity.Y), -currArea.maxVelocity.Y);
 

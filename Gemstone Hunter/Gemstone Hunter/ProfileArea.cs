@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework;
 
 namespace Gemstone_Hunter
 {
-    class ProfileArea
+    public class ProfileArea
     {
         public Vector2 gravity;
         public Vector2 maxVelocity;

@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework;
 
 namespace Gemstone_Hunter
 {
-    class ProfileFloor
+    public class ProfileFloor
     {
 
         public float grip;
